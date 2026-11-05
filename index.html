@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proyecto de Abejas | Universidad de Cundinamarca</title>
+<meta name="description" content="Proyecto institucional de conservación de abejas y apicultura sostenible - Universidad de Cundinamarca.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- 1. HEADER -->
+<header>
+  <div class="container nav">
+    <a href="#inicio" class="logo logo-img" aria-label="UCundinamarca - Proyecto Institucional">
+      <img src="img/logo-ucundinamarca.png" alt="Universidad de Cundinamarca - Acreditación Institucional Alta Calidad">
+      <small>Proyecto Institucional</small>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="mainNav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#proyecto">Proyecto</a></li>
+        <li><a href="#objetivos">Objetivos</a></li>
+        <li><a href="#equipo">Equipo</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- 2. HERO / CARRUSEL (slides generados por js/main.js desde SLIDES en js/data.js) -->
+<div class="carousel" id="inicio" aria-roledescription="carrusel">
+  <button class="arrow prev" id="prev" aria-label="Anterior">&#10094;</button>
+  <button class="arrow next" id="next" aria-label="Siguiente">&#10095;</button>
+  <div class="dots" id="dots"></div>
+</div>
+
+<!-- 3. DESCRIPCIÓN -->
+<section id="proyecto">
+  <div class="container two-col">
+    <div class="reveal">
+      <h2 class="section-title">Descripción del Proyecto</h2>
+      <!-- TEXTO DE EJEMPLO: reemplazar con la información real del proyecto -->
+      <p>Este proyecto institucional busca fortalecer la conservación de las abejas nativas y promover la apicultura sostenible en Cundinamarca, reconociendo el papel esencial de estos polinizadores en la seguridad alimentaria y el equilibrio de los ecosistemas.</p>
+      <p>Mediante trabajo de campo, monitoreo de colmenas y documentación científica, estudiantes y docentes caracterizan el estado de las colonias, las prácticas de manejo y la oferta floral de la región, generando información útil para productores y comunidades.</p>
+      <p>Complementariamente, se desarrollan actividades de educación ambiental y extensión universitaria que acercan el conocimiento académico a la comunidad, fomentando una cultura de cuidado y apropiación del territorio.</p>
+    </div>
+    <!-- La imagen se asigna desde js/main.js; cambiar allí o poner src aquí -->
+    <img class="featured reveal" id="featuredImg" alt="Imagen destacada del proyecto de abejas">
+  </div>
+</section>
+
+<!-- 4. OBJETIVOS Y RESULTADOS -->
+<section id="objetivos" class="bg-white">
+  <div class="container">
+    <h2 class="section-title reveal">Objetivos y Resultados</h2>
+    <p class="section-sub reveal">Metas planteadas y logros alcanzados durante la ejecución del proyecto (cifras de ejemplo, pendientes de validar).</p>
+    <div class="grid cards">
+      <article class="card reveal"><div class="icon">🐝</div><h3>Conservar polinizadores</h3><p>Caracterizar y proteger colonias de abejas nativas y melíferas en la zona de estudio.</p><p><strong>Logro:</strong> 25 colmenas monitoreadas.</p></article>
+      <article class="card gold reveal"><div class="icon">🍯</div><h3>Apicultura sostenible</h3><p>Implementar buenas prácticas de manejo que mejoren la producción sin afectar el entorno.</p><p><strong>Logro:</strong> 12 apicultores capacitados.</p></article>
+      <article class="card reveal"><div class="icon">🔬</div><h3>Investigación aplicada</h3><p>Registro sistemático de datos y observaciones como base para futuras publicaciones.</p><p><strong>Logro:</strong> base de datos con más de 300 registros de campo.</p></article>
+      <article class="card gold reveal"><div class="icon">🌱</div><h3>Educación ambiental</h3><p>Jornadas de sensibilización con la comunidad sobre la importancia de las abejas.</p><p><strong>Logro:</strong> 4 jornadas con más de 120 participantes.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- 5. EQUIPO -->
+<section id="equipo">
+  <div class="container">
+    <h2 class="section-title reveal">Equipo y Participantes</h2>
+    <p class="section-sub reveal">Docentes y estudiantes que hicieron posible el proyecto.</p>
+    <div class="grid cards">
+      <!-- REEMPLAZAR nombres, roles y fotos: <div class="avatar"><img src="foto1.jpg" alt="Nombre"></div> -->
+      <article class="card member reveal"><div class="avatar">NS</div><h3>Natali Ximena Sánchez Garzón</h3><p class="role">Docente encargada del proyecto</p></article>
+      <article class="card member reveal"><div class="avatar">CP</div><h3>Camilo Andrés Pérez</h3><p class="role">Estudiante investigador</p></article>
+      <article class="card member reveal"><div class="avatar">LG</div><h3>Laura Valentina Gómez</h3><p class="role">Estudiante – trabajo de campo</p></article>
+      <article class="card member reveal"><div class="avatar">JM</div><h3>Juan Sebastián Moreno</h3><p class="role">Estudiante – documentación y registro</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- 6. FECHA Y LUGAR -->
+<section class="bg-white">
+  <div class="container">
+    <h2 class="section-title reveal">Fecha y Lugar</h2>
+    <div class="grid cards mt-30">
+      <!-- AJUSTAR con las fechas y ubicación reales -->
+      <div class="card reveal"><div class="icon">📅</div><h3>Fecha</h3><p>18 de septiembre al 16 de octubre de 2026<br>Periodo académico 2026-2</p></div>
+      <div class="card gold reveal"><div class="icon">📍</div><h3>Lugar</h3><p>Seccional Ubaté, Cundinamarca, Colombia</p></div>
+      <div class="card reveal"><div class="icon">🏛️</div><h3>Institución</h3><p>Universidad de Cundinamarca<br>Proyecto de Interacción Social Universitaria (ISU)</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. GALERÍA (generada por js/main.js desde FOTOS en js/data.js) -->
+<section id="galeria">
+  <div class="container">
+    <h2 class="section-title reveal">Galería del Proyecto</h2>
+    <p class="section-sub reveal">Haz clic en una imagen para verla ampliada.</p>
+    <div class="grid gallery" id="gallery"></div>
+  </div>
+</section>
+
+<!-- 8. VIDEOS (HTML5 con archivos locales) -->
+<section class="bg-white">
+  <div class="container">
+    <h2 class="section-title reveal">Videos del Proyecto</h2>
+    <div class="grid videos mt-30">
+      <!-- REEMPLAZAR por otro archivo o por un iframe de YouTube si se desea -->
+      <div class="video-box reveal">
+        <video controls preload="metadata" src="Imagenes/ISU-API-26-2/WhatsApp%20Video%202026-10-16%20at%202.59.45%20PM.mp4"></video>
+        <h3>Video 1: Trabajo de campo</h3>
+      </div>
+      <div class="video-box reveal">
+        <video controls preload="metadata" src="Imagenes/ISU-API-26-2/WhatsApp%20Video%202026-10-16%20at%204.06.01%20PM.mp4"></video>
+        <h3>Video 2: Actividades con la comunidad</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 9. CONTACTO -->
+<section id="contacto" class="contact">
+  <div class="container reveal">
+    <h2 class="section-title">Más información</h2>
+    <p>¿Te interesa conocer más sobre el proyecto o participar en sus próximas fases? Escríbenos y el equipo te responderá.</p>
+    <a class="btn" href="mailto:proyecto.abejas@ucundinamarca.edu.co?subject=Solicitud%20de%20informaci%C3%B3n%20-%20Proyecto%20Abejas">Solicitar más información</a>
+    <p class="contact-mail">✉️ info@ucundinamarca.edu.co · 📞 Línea gratuita 01 8000 180 414</p>
+    <div class="socials">
+      <a href="https://www.facebook.com/ucundinamarcaoficial/" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/ucundinamarcaoficial/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://twitter.com/UCundinamarca" target="_blank" rel="noopener">X</a>
+      <a href="https://youtube.com/@ucundinamrcatv" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.tiktok.com/@ucundinamarca_oficial" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://www.linkedin.com/school/ucundinamarcaoficial/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- 10. FOOTER -->
+<footer>
+  <div class="container">
+    <p class="copy">Universidad de Cundinamarca - Proyecto Institucional &copy; <span id="year"></span></p>
+    <p class="legal">UCUNDINAMARCA Generación Siglo 21 · Universidad de Cundinamarca · Vigilada Mineducación<br>
+      Reconocida por Resolución No. 19530 de diciembre 30 de 1992 (MEN) · Sede Administrativa: Dg 18 No. 20-29 Fusagasugá · (+57 1) 828 1483<br>
+      <a href="https://www.ucundinamarca.edu.co/" target="_blank" rel="noopener">www.ucundinamarca.edu.co</a></p>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imágenes">
+  <button class="lb-btn lb-close" id="lbClose" aria-label="Cerrar">&times;</button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Anterior">&#10094;</button>
+  <img id="lbImg" alt="">
+  <button class="lb-btn lb-next" id="lbNext" aria-label="Siguiente">&#10095;</button>
+  <span class="lb-count" id="lbCount"></span>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
